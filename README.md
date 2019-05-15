@@ -5,24 +5,12 @@ NB: For security purpose I've hidden the username, the port and the password in 
 
 I- CONFIGURATION FILE 'config/config.xml'
 Replace the parameters with your own parameters
-<?xml version="1.0" encoding="UTF-8"?>
-<mail_parameters>
-   <host_name>mail.cepici.ci</host_name>
-   <user_name>Your username on the server</user_name>
-   <password>Your Password on the server</password>
-   <port>Your port on the server</port>
-   <from>sg2i@cepici.ci</from>
-   <cc>mohamed.fofana@cepici.ci, momosofts@gmail.com</cc>
-   <bcc>hermann.nguetta@cepici.ci</bcc>
-   <subject>Votre participation à AFRICALLIA 2019 à Abidjan du 12 au 14 juin 2019</subject>
-   <content_file>msg.21.03.2019.html</content_file>
-   <attachment_folder>pieces.21.03.2019</attachment_folder>
-   <destination_folder>ici</destination_folder>
-</mail_parameters>
    a- CONTENT_FILE
       After referencing the filename in the <content_file></content_file> tag add this file in the "messages" folder.
+   
    b- ATTACHMENT_FOLDER
       After referencing the folder name in the <attachment_folder></attachment_folder> tag create a folder with that name and add all your attachments.
+      
    c- DESTINATION_FOLDER
       After referencing the folder name in the <destination_folder></destination_folder> tag create a folder with name and add all your csv files containing the receivers email adresse.
       
