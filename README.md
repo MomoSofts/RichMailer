@@ -4,7 +4,8 @@ I used this program to set up notifications in my company and assigned a automat
 NB: For security purpose I've hidden the username, the port and the password in the config file.
 
 I- CONFIGURATION FILE 'config/config.xml'
-Replace the parameters with your own parameters
+Replace the parameters with your own parameters:
+
    a- CONTENT_FILE
       After referencing the filename in the <content_file></content_file> tag add this file in the "messages" folder.
    
