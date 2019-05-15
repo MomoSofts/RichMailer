@@ -31,7 +31,9 @@ Replace the parameters with your own parameters:
  mv your_running_file.sh your_running_file
  
  Every Monday at 10 AM:
+ 
  1- crontab -e
+ 
  2- 30 10 * * 1 your_running_file
 
  
